@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "拍蚊子",
+  "usingComponents": {
+    "commonDialog": "/components/commonDialog/commonDialog"
+  }
+}

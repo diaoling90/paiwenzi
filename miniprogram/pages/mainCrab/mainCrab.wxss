@@ -1,0 +1,64 @@
+/* miniprogram/pages/mainCrab/mainCrab.wxss */
+container{
+   height: 100vh;
+   width: 100%;
+}
+
+.bg_img{
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+ 
+}
+
+.crap{
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.xue{
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.paizi{
+  position: absolute;
+  width: 170rpx;
+  height: 170rpx;
+}
+
+.crap_content{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 10000;
+}
+
+.hide_dialog{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: none
+}
+
+.show_dialog{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: block
+}
+
+.countdown{
+  margin: 15rpx;
+  height: 70rpx;
+  width: 120rpx;
+  background-color: gray;
+  border-radius: 30rpx;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

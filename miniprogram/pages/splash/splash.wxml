@@ -1,0 +1,9 @@
+<!--miniprogram/pages/splash/splash.wxml-->
+<view class='container'>
+  <!-- animation="{{animationRo}}" bindtap='animate' -->
+   <view class='logo_layout1' animation="{{animationRo}}" bindtap='animate'>
+    <image class='logo' src='../../images/wenzi.gif' mode='aspectFill'></image>
+    <text class='logo_name' mode="aspectFit" >拍蚊子</text>
+  </view>
+  <!-- <commonDialog dialogTitle="开始游戏" dialogText='确定开始吗' sureText='确定' cancleText='取消'></commonDialog> -->
+</view>

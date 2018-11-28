@@ -1,0 +1,15 @@
+<!--miniprogram/pages/mainCrab/mainCrab.wxml-->
+
+<view class='container'>
+  <image class='bg_img' src='../../images/bg.png'  mode='aspectFill'></image>
+  <view class='crap_content' bindtouchstart="touchstartFn">
+    <image class='crap' src='../../images/wenzi.gif' mode='aspectFit' style="left:{{crap_left}}rpx;top:{{crap_top}}rpx" hidden='{{hide}}' bindtap='paidao'></image>
+    <image class='xue' src='../../images/xue.png' mode='aspectFit' style="left:{{xue_left}}rpx;top:{{xue_top}}rpx" hidden='{{xue_hide}}'></image>
+    <image class='paizi' src='../../images/paizi.png' mode='aspectFit' style="left:{{paizi_left}}rpx;top:{{paizi_top}}rpx" hidden='{{paizi_hide}}'></image>
+    <text class='countdown' >{{count_down_text}}s</text>
+  </view>
+  <view class="{{dialog_hide?'hide_dialog':'show_dialog'}}" >
+    <commonDialog dialogTitle="{{dialog_title}}" dialogText='{{dialog_content}}' sureText='{{dialog_sure}}' cancleText='{{dialog_share}}' dialogBottom='{{dialogBottom}}' bind:confirmEvent="_confirmEvent" bind:cancelEvent="_cancelEvent" bind:bottomContentEvent='bottomContentEvent'
+     ></commonDialog>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<!--miniprogram/pages/paihang/paihang.wxml-->
+<view class='container'>
+  <view class='content'>
+    <text class='paihang'>名次</text>
+    <text class='headerImgView'>头像</text>
+    <text class='name'>昵称</text>
+    <text class='count'>最高纪录</text>
+  </view>
+  <view class='content' wx:for='{{freinds}}'>
+    <text class='paihang'>{{index}}</text>
+    <view class='headerImgView'>
+      <image class='headerImg' src='{{item.headUrl}}' mode='aspectFit'></image>
+    </view>
+    <text class='name'>{{item.name}}</text>
+    <text class='count'>{{item.count}}</text>
+  </view>
+</view>

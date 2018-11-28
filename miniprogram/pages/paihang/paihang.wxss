@@ -1,0 +1,60 @@
+/* miniprogram/pages/paihang/paihang.wxss */
+.content{
+  
+  margin-top: 20rpx;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container{
+  background: gainsboro;
+  height: 100vh;
+  width: 100vw;
+}
+
+.paihang{
+  width: 25%;
+  height: 100rpx;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.headerImgView{
+  width: 25%;
+  height: 100rpx;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.headerImg{
+  width:70rpx;
+  height:70rpx;
+  display: flex;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+
+.name{
+  width: 25%;
+  height: 100rpx;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.count{
+  width: 25%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}

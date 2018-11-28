@@ -1,0 +1,9 @@
+<!--miniprogram/pages/preStart/preStart.wxml-->
+<view class='container'>
+  <image class='bg_img' src='../../images/bg.png'  mode='aspectFill'></image>
+  <view class='button_layout'>
+    <button class='button' type='primary' bindtap='start' open-type='getUserInfo' bindgetuserinfo='getUserInfo'>开始游戏</button>
+    <button class='button' type='primary' bindtap='topaihang'>好友排行</button>
+    <open-data type="userInfo" lang="zh_CN"></open-data>
+  </view>
+</view>

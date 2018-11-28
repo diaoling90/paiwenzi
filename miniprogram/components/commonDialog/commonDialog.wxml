@@ -1,0 +1,13 @@
+<!--component/dialog/commonDialog.wxml-->
+<view class='container'>
+  <view class='bg'></view>
+  <view class='content'>
+    <text class='title'>{{dialogTitle}}</text>
+    <text class='text'>{{dialogText}}</text>
+    <view class='button_layout'>
+      <button class='button_sure' type='primary' catchtap='_confirmEvent'>{{sureText}}</button>
+      <button class='button_cancle' type='warn' catchtap='_cancelEvent' open-type="share">{{cancleText}}</button>
+    </view>
+    <text class='bottomContent' catchtap='_bottomContentEvent'>{{dialogBottom}}</text>
+  </view>
+</view>
